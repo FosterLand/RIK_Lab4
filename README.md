@@ -31,7 +31,7 @@
 ## Структура проєкту
 
 ```
-SurveyApp/
+LAB4/
 ├── app/
 │   ├── _layout.jsx            — кореневий layout
 │   └── (tabs)/
@@ -55,19 +55,19 @@ SurveyApp/
 
 ```bash
 # Перейти у папку проєкту
-cd SurveyApp
+cd Lab4
 
 # Встановити залежності (якщо ще не встановлені)
 npm install
 
 # Запустити у браузері
-npx expo start --web
+npm run web
 
-# Запустити через Expo Tunnel
-npx expo start --tunnel
+# Запустити на Android
+npm run android
 ```
 
-Додаток відкриється у браузері за адресою `http://localhost:8081`.
+Додаток відкриється у браузері за адресою `http://localhost:...`.
 
 ## Збереження результатів
 
