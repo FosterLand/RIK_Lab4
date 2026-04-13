@@ -155,7 +155,7 @@ export default function SurveyScreen() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Text style={styles.title}>Опитування</Text>
-      <Text style={styles.subtitle}>Задоволеність сервісом</Text>
+      <Text style={styles.subtitle}>Розкажіть про себе</Text>
 
       {questions.map((q) => (
         <View key={q.id} style={styles.card}>
@@ -211,7 +211,7 @@ export default function SurveyScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f0f4f8',
+    backgroundColor: '#121212',
   },
   content: {
     padding: 20,
@@ -223,18 +223,18 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#2c3e50',
+    color: '#ffffff',
     textAlign: 'center',
     marginTop: 20,
   },
   subtitle: {
     fontSize: 16,
-    color: '#7f8c8d',
+    color: '#cccccc',
     textAlign: 'center',
     marginBottom: 24,
   },
   card: {
-    backgroundColor: '#ffffff',
+    backgroundColor: '#2c2c2c',
     borderRadius: 12,
     padding: 16,
     marginBottom: 16,
@@ -247,23 +247,23 @@ const styles = StyleSheet.create({
   label: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#34495e',
+    color: '#ffffff',
     marginBottom: 4,
   },
   hint: {
     fontSize: 12,
-    color: '#95a5a6',
+    color: '#aaaaaa',
     marginBottom: 10,
     fontStyle: 'italic',
   },
   input: {
-    backgroundColor: '#f8f9fa',
+    backgroundColor: '#333333',
     borderWidth: 1,
-    borderColor: '#dfe6e9',
+    borderColor: '#555555',
     borderRadius: 8,
     padding: 12,
     fontSize: 14,
-    color: '#2d3436',
+    color: '#ffffff',
     minHeight: 70,
     textAlignVertical: 'top',
     marginTop: 6,
@@ -274,14 +274,14 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 4,
     borderBottomWidth: 1,
-    borderBottomColor: '#f0f0f0',
+    borderBottomColor: '#444444',
   },
   checkbox: {
     width: 22,
     height: 22,
     borderRadius: 4,
     borderWidth: 2,
-    borderColor: '#bdc3c7',
+    borderColor: '#666666',
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 12,
@@ -291,17 +291,17 @@ const styles = StyleSheet.create({
     height: 22,
     borderRadius: 11,
     borderWidth: 2,
-    borderColor: '#bdc3c7',
+    borderColor: '#666666',
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 12,
   },
   optionSelected: {
-    borderColor: '#3498db',
-    backgroundColor: '#ebf5fb',
+    borderColor: '#27ae60',
+    backgroundColor: '#333333',
   },
   checkmark: {
-    color: '#3498db',
+    color: '#27ae60',
     fontSize: 14,
     fontWeight: 'bold',
   },
@@ -309,15 +309,15 @@ const styles = StyleSheet.create({
     width: 10,
     height: 10,
     borderRadius: 5,
-    backgroundColor: '#3498db',
+    backgroundColor: '#27ae60',
   },
   optionText: {
     fontSize: 14,
-    color: '#2d3436',
+    color: '#ffffff',
     flex: 1,
   },
   clearButton: {
-    backgroundColor: '#e74c3c',
+    backgroundColor: '#e67e22',
     borderRadius: 12,
     paddingVertical: 16,
     alignItems: 'center',
@@ -328,7 +328,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#f1a9a0',
   },
   button: {
-    backgroundColor: '#3498db',
+    backgroundColor: '#27ae60',
     borderRadius: 12,
     paddingVertical: 16,
     alignItems: 'center',
@@ -344,7 +344,7 @@ const styles = StyleSheet.create({
     bottom: 20,
     left: 20,
     right: 20,
-    backgroundColor: '#2d3436',
+    backgroundColor: '#333333',
     borderRadius: 10,
     paddingTop: 14,
     paddingBottom: 10,
@@ -367,14 +367,14 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   snackbarUndo: {
-    color: '#3498db',
+    color: '#27ae60',
     fontSize: 14,
     fontWeight: 'bold',
     marginLeft: 12,
   },
   progressTrack: {
     height: 4,
-    backgroundColor: '#636e72',
+    backgroundColor: '#555555',
     borderRadius: 2,
     overflow: 'hidden',
   },
